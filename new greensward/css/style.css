@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left ul li {
+    display: inline;
+    cursor: pointer;
+    margin: 5px;
+    transition: 1s;
+}
+
+.left ul li:hover {
+    color: rgb(71, 204, 71);
+}
+
+.right ul li {
+    display: inline;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.right ul li:hover {
+    color: rgb(71, 204, 71);
+}
+
+.fa-search {
+    background-color: #fff;
+    color: black;
+    border: 8px solid #fff;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.fa-search:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.fa-moon {
+    font-size: 20px;
+    color: #fff;
+    transition: 1s;
+    margin-top: 5px;
+}
+
+.fa-moon:hover {
+    color: black;
+    transform: scale(1.5, 1.5);
+}
+
+.carousel ul {
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 50px 0px 50px 0px;
+    margin-left: 20px;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    animation-name: azad;
+    animation-duration: 1.5s;
+    animation-direction: alternate-reverse;
+    opacity: 1;
+}
+
+@keyframes azad {
+    form {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+
+}
+
+.image3 {
+    position: absolute;
+    left: 350px;
+    border: 5px solid #fff;
+}
+
+.baya ul span {
+    color: #fff;
+    background: rgb(39, 153, 39);
+}
+
+.baya ul h6 {
+    margin-top: 20px;
+}
+
+.baya ul p {
+    margin-top: 20px;
+}
+
+.baya img {
+    width: 30%;
+    height: 30%;
+}
+
+.card1 h5:hover {
+    color: rgb(39, 153, 39);
+    cursor: pointer;
+}
+
+.card2 h5:hover {
+    color: rgb(39, 153, 39);
+    cursor: pointer;
+}
+
+.card3 img {
+    width: 20x;
+    height: 20px;
+}
+
+.card3 h5:hover {
+    color: rgb(39, 153, 39);
+    cursor: pointer;
+}
+
+.card4 img {
+    width: 20x;
+    height: 20px;
+}
+
+.card4 h5:hover {
+    color: rgb(39, 153, 39);
+    cursor: pointer;
+}
+.sho{
+    transition: .5s;
+}
+.sho:hover{
+    box-shadow: 0 0 15px gray;
+}
+
+
+
+.fa-thumbs-up {
+    font-size: 30px;
+    color: #fff;
+    background: rgb(39, 153, 39);
+    border: 10px solid rgb(39, 153, 39);
+    border-radius: 100%;
+}
+
+.fa-hand-peace {
+    font-size: 30px;
+    color: #fff;
+    background: rgb(39, 153, 39);
+    border: 10px solid rgb(39, 153, 39);
+    border-radius: 100%;
+}
+
+.fa-lightbulb {
+    font-size: 30px;
+    color: #fff;
+    background: rgb(39, 153, 39);
+    border: 10px solid rgb(39, 153, 39);
+    border-radius: 100%;
+}
+
+.fa-seedling {
+    font-size: 30px;
+    color: #fff;
+    background: rgb(39, 153, 39);
+    border: 10px solid rgb(39, 153, 39);
+    border-radius: 100%;
+}
+@media(max-width :1828px){
+    .daya .image3{
+        position: absolute;
+    left: 3s50px;
+    }
+}
+@media(max-width :1327px){
+    .daya .image3{
+        position: absolute;
+    left: 220px;
+    }
+    .baya .pera{
+        font-size: 10px;
+    }
+}
+
+@media(max-width :986px){
+    .daya .image3{
+        position: absolute;
+    left: 350px;
+    }
+    .baya .pera{
+        padding-top: 50px;
+    }
+    .trum{
+        flex-direction: column;
+    }
+    .trum2{
+        flex-direction: column;
+    }
+}
+@media(max-width :808px) {
+    .carousel ul {
+        position: absolute;
+        top: 200px;
+        left: 40px;
+    }
+}
+@media(max-width :660px) {
+   .daya .image3{
+        position: absolute;
+    left: 300px;
+    }
+    .baya .pera{
+        padding-top: 50px; 
+    }
+    .carousel ul {
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+}
+@media(max-width :600px){  
+   
+    .daya img{
+        width: 280px;
+        height: 400px;
+    }
+ }
+@media(max-width :562px) {
+    .carousel ul {
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        font-size: 10px;
+    }
+
+    .daya .image3{
+
+        position: absolute;
+    left: 200px;
+    }
+    .daya img{
+        width: 250px;
+        height: 400px;
+    }
+    .baya .pera{
+        padding-top: 50px; 
+    }
+    
+}
+@media(max-width :452px){
+    .carousel ul {
+        font-size: 10px;
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        font-size: 6px;
+    }
+    .daya img{
+        width: 200px;
+        height: 400px;
+    }
+    .farmer img{
+        
+        width: 350px;
+        height: auto;
+    }
+
+}
+
+@media(max-width :400px){  
+    .daya .image3{
+
+        position: absolute;
+    left: 160px;
+    }
+    .daya img{
+        width: 180px;
+        height: 300px;
+    }
+ }
+@media(max-width :375px) {
+    
+    .carousel ul h1 {
+        font-size: 12px;
+
+    }
+    .carousel ul h1 p{
+         font-size: 10px;
+    }
+    .carousel button{
+        font-size: 5px;
+    }
+    .daya .image3{
+
+        position: absolute;
+    left: 160px;
+    }
+    .daya img{
+        width: 200px;
+        height: 300px;
+    }
+    .baya .pera{
+        padding-top: 50px; 
+    }
+    .about h3 i{
+        font-size: 15px;
+    }
+    .about  h3{
+        font-size: 15px;
+    }
+    .about {
+        font-size: 10px;
+    }
+    .farmer img{
+        
+        width: 350px;
+        height: auto;
+    }
+}
+@media(max-width :360px){
+   .left{
+       overflow: hidden;
+       
+   }
+    .daya .image3{
+
+        position: absolute;
+    left: 150px;
+    }
+    .daya img{
+        width: 180px;
+        height: 300px;
+    }
+}
+@media(max-width :372px){
+    .daya img{
+        width: 180px;
+        height: 300px;
+    }
+    .card{
+      margin: -4px;
+    }
+}
